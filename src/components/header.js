@@ -1,8 +1,14 @@
 import React from "react";
 import "../css/header.css";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-function header() {
+function Header() {
+  const navigate = useNavigate();
+  const handelLogout = () => {
+    localStorage.clear();
+    navigate("/login");
+    console.log(localStorage);
+  };
   return (
     <div className="container">
       <div className="top-container">
@@ -13,6 +19,9 @@ function header() {
           </Link>
           <div className="register">register</div>
           <div className="menu">menu</div>
+          <div className="logout" onClick={handelLogout}>
+            logout
+          </div>
         </div>
       </div>
       <div className="bottom-container">
@@ -25,4 +34,4 @@ function header() {
   );
 }
 
-export default header;
+export default Header;

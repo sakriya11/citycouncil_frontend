@@ -26,6 +26,12 @@
     color: white;
     padding-right: 20px;
 }
+.logout{
+    color: white;
+    padding-right: 20px;
+    cursor: pointer;
+
+}
 .register{
     color: #ffffff;
     padding-right: 20px;
