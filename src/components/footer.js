@@ -63,11 +63,11 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              XTREAM
+              City Council
               <i class="fab fa-typo3" />
             </Link>
           </div>
-          <small class="website-rights">XTREAM © 2020</small>
+          <small class="website-rights">Kathmandu City Council © 2024</small>
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
@@ -83,7 +83,8 @@ function Footer() {
               target="_blank"
               aria-label="Instagram"
             >
-              <i class="fab fa-instagram" />
+              <i class="fa-brands fa-square-instagram"></i>
+              {/* <i class="fab fa-instagram" /> */}
             </Link>
             <Link
               class="social-icon-link youtube"

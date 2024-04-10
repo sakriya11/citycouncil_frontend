@@ -1,31 +1,48 @@
 import React from "react";
-import "../css/header.css";
 import { Link, useNavigate } from "react-router-dom";
+import "../css/header.css";
 
-function Header() {
+function Headertest() {
   const navigate = useNavigate();
   const handelLogout = () => {
     localStorage.clear();
     navigate("/login");
     console.log(localStorage);
   };
+
+  const handelSignIn = () => {
+    navigate("/login");
+  };
+
+  const handelRegister = () => {
+    navigate("/register");
+  };
   return (
-    <div className="container">
-      <div className="top-container">
-        <div className="logo">Logo</div>
-        <div className="user-option">
-          <Link to={"/login"}>
-            <div className="sign">sign</div>
-          </Link>
-          <div className="register">register</div>
-          <div className="menu">menu</div>
-          <div className="logout" onClick={handelLogout}>
+    <div className="header-container">
+      <div className="header-top-container">
+        <div className="header-logo">
+          City Council
+          <i class="fab fa-typo3" />
+        </div>
+        <div className="header-user-option">
+          <i
+            className="fa-regular fa-user "
+            style={{ color: "#ffffff", marginTop: 2, marginRight: 5 }}
+          ></i>
+
+          <div className="sign" onClick={handelSignIn}>
+            Sign in
+          </div>
+          <div className="header-register" onClick={handelRegister}>
+            register
+          </div>
+          <div className="header-logout" onClick={handelLogout}>
             logout
           </div>
         </div>
       </div>
-      <div className="bottom-container">
-        <div className="search-bar">
+      <div className="header-bottom-container">
+        <div className="header-search-bar">
           <input type="text" placeholder="search"></input>
           <button type="submit">Search</button>
         </div>
@@ -34,4 +51,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Headertest;

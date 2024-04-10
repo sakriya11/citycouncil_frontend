@@ -1,42 +1,52 @@
-.container{
-    /* max-width: 1000px; */
-    margin: 0 auto;
+.header-container{
     display: flex;
     flex-direction: column;
     background-color:rgb(55, 182, 246);
 
 }
 
-.top-container{
+.header-top-container{
     margin-top: 15px;
     margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.user-option{
+
+.header-user-option{
     display: flex;
     justify-content: space-evenly;
     padding-right: 50px;
 }
-.logo{
+
+.header-logo{
+    font-size: 25px;
     margin-left: 50px;
+    color: #ffffff;
+    font-weight: bold;
 }
+
 .sign{
     color: white;
     padding-right: 20px;
+    cursor: pointer;
+    font-weight: bold;
+
 }
-.logout{
+.header-logout{
     color: white;
     padding-right: 20px;
     cursor: pointer;
+    font-weight: bold;
 
 }
-.register{
+.header-register{
     color: #ffffff;
     padding-right: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
-.bottom-container{
+.header-bottom-container{
     margin-top: 20px;
     width: 100%;
     flex-direction: column;
@@ -44,7 +54,8 @@
 
 
 }
-.search-bar{
+
+.header-search-bar{
     margin-top: 15px;
     margin-bottom: 15px;
     margin-left: 200px;
@@ -53,7 +64,7 @@
     flex-direction: row;
     height: 50px;
 }
-.search-bar input {
+.header-search-bar input {
 
     width: 100%;
     padding: 8px;
@@ -61,7 +72,7 @@
     border-radius: 4px 4px 0 0; /* Rounded corners on top */
 }
 
-.search-bar button {
+.header-search-bar button {
     width: 10%;
     background-color: #2b2727;
     color: #ffffff;

@@ -4,7 +4,11 @@
 }
 
 .login-logo{
-  margin-bottom: 15%;
+  margin-bottom: 5%;
+  color: white;
+  
+  font-weight: bold;
+  font-size: 25px;
   
 }
 

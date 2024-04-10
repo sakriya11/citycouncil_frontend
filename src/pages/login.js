@@ -58,7 +58,10 @@ function Login() {
   return (
     <div className="login-container">
       <div className="second-container">
-        <div className="login-logo">logo</div>
+        <div className="login-logo">
+          City Council
+          <i class="fab fa-typo3" />
+        </div>
         <div className="title">
           <b>Kathmandu City Council</b>
         </div>
@@ -80,7 +83,7 @@ function Login() {
         <div className="input-container">
           <label>Password</label>
           <input
-            type="text"
+            type="password"
             name="password"
             value={login.password}
             onChange={handelChange}

@@ -67,7 +67,10 @@ function Registration() {
   return (
     <div className="login-container">
       <div className="second-container">
-        <div className="login-logo"></div>
+        <div className="login-logo">
+          City Council
+          <i class="fab fa-typo3" />
+        </div>
         <div className="registration-title"> Kathmandu City Council</div>
         <div className="registration-discription">
           Once registered you can track the progress of your cases and
@@ -101,7 +104,7 @@ function Registration() {
           <div className="input-container">
             <label>Password</label>
             <input
-              type="text"
+              type="password"
               name="password"
               value={registerFormData.password}
               onChange={handelChange}
@@ -110,7 +113,7 @@ function Registration() {
           <div className="input-container">
             <label>Confirm password</label>
             <input
-              type="text"
+              type="password"
               name="confirmPassword"
               value={registerFormData.confirmPassword}
               onChange={handelChange}
