@@ -24,40 +24,28 @@ function homepage() {
               className="fa-regular fa-user fa-xl"
               style={{ marginLeft: 50, color: "#1bc4da" }}
             ></i>
-            <div className="topic" style={{ marginLeft: 50 }}>
-              title
-            </div>
-            <div className="detail">this is the detail section</div>
+            <div className="topic">Community Initiatives</div>
           </div>
           <div className="icon_second">
             <i
               class="fa-brands fa-blogger-b fa-xl"
               style={{ marginLeft: 50, color: "#1bc4da" }}
             ></i>
-            <div className="topic" style={{ marginLeft: 50 }}>
-              title
-            </div>
-            <div className="detail">this is the detail section</div>
+            <div className="topic">Transparent Governance</div>
           </div>
           <div className="icon_third">
             <i
               class="fa-brands fa-blogger-b fa-xl"
               style={{ marginLeft: 50, color: "#1bc4da" }}
             ></i>
-            <div className="topic" style={{ marginLeft: 50 }}>
-              title
-            </div>
-            <div className="detail">this is the detail section</div>
+            <div className="topic">Local Services Directory</div>
           </div>
           <div className="icon_four">
             <i
               class="fa-regular fa-heart fa-xl"
               style={{ marginLeft: 50, color: "#1bc4da" }}
             ></i>
-            <div className="topic" style={{ marginLeft: 50 }}>
-              title
-            </div>
-            <div className="detail">this is the detail section</div>
+            <div className="topic">Engage with Your Council</div>
           </div>
         </div>
         <div className="text">
@@ -67,39 +55,45 @@ function homepage() {
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://media-cdn.tripadvisor.com/media/photo-c/768x250/0d/d6/96/36/photo4jpg.jpg"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSCYqhiuLbbX8Qs6VVxlfFlsqIHY3fASSrMVWWoHh7nA&s"
             />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>
+                City Launches Green Initiative to Combat Climate Change
+              </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Learn about the latest efforts by the city council to reduce
+                carbon emissions and promote sustainability..
               </Card.Text>
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://media-cdn.tripadvisor.com/media/photo-c/768x250/0d/d6/96/36/photo4jpg.jpg"
+              src="https://www.birminghamtimes.com/wp-content/uploads/2019/01/RapidTransit-2-.jpg"
             />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>
+                New Public Transportation Route Connects Neighborhoods
+              </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Stay informed about the launch of a new public transportation
+                route designed to improve accessibility
               </Card.Text>
             </Card.Body>
           </Card>
           <Card style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
-              src="https://media-cdn.tripadvisor.com/media/photo-c/768x250/0d/d6/96/36/photo4jpg.jpg"
+              src="https://s3-rd-prod.crainsdetroit.com/s3fs-public/styles/1024x512/public/muskegon-dog-park-main_i.jpg"
             />
             <Card.Body>
-              <Card.Title>Card Title</Card.Title>
+              <Card.Title>
+                Community Partnership Spurs Revitalization of Local Parks
+              </Card.Title>
               <Card.Text>
-                Some quick example text to build on the card title and make up
-                the bulk of the card's content.
+                Read about a collaborative effort between the city council and
+                community organizations .
               </Card.Text>
             </Card.Body>
           </Card>

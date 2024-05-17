@@ -55,10 +55,14 @@ function Login() {
       }
     }
   };
+
+  const navigateToHome = () => {
+    navigate("/");
+  };
   return (
     <div className="login-container">
       <div className="second-container">
-        <div className="login-logo">
+        <div className="login-logo" onClick={navigateToHome}>
           City Council
           <i class="fab fa-typo3" />
         </div>

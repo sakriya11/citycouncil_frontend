@@ -24,6 +24,9 @@ function Registration() {
     });
   };
 
+  const navigateToHome = () => {
+    navigate("/");
+  };
   const handelSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -67,7 +70,7 @@ function Registration() {
   return (
     <div className="login-container">
       <div className="second-container">
-        <div className="login-logo">
+        <div className="login-logo" onClick={navigateToHome}>
           City Council
           <i class="fab fa-typo3" />
         </div>

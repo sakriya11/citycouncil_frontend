@@ -1,0 +1,56 @@
+.tax-second-container{
+    width: 620px;
+    height: fit-content;
+    display: flex;
+    flex-direction:column ;
+    border-radius: 5px;
+    border: 1px solid rgb(134, 28, 28);
+    padding: 22px;
+    padding-left: 30px;
+    box-shadow: 3px 3px 3px 3px;
+    margin: 2%;
+    background-color:rgb(55, 182, 246);
+    justify-content: space-between; 
+
+}
+
+.tax-container{
+    margin-left: 450px;
+}
+
+.taxform{
+    display: flex;
+}
+
+.input{
+    margin-bottom: 20px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+
+.input-right{
+    margin-left: 100px;
+}
+
+.input-box{
+    width: 90px;
+}
+
+.input-payment{
+    margin-top: 26px;
+    margin-right: 20px;
+    margin-left: 25px;
+}
+
+.input-amount{
+    margin-top: 26px;
+    margin-right: 10px;
+}
+
+.input-value{
+    margin-left: 110px;
+}
+
+.input-method{
+    margin-left: 20px;
+}
