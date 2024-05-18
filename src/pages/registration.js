@@ -31,7 +31,8 @@ function Registration() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://127.0.0.1:3000/api/user/registration",
+        "https://kathmandu-citycouncil.vercel.app//api/user/registration",
+        // "http://127.0.0.1:3000/api/user/registration",
         registerFormData
       );
       if (response.data) {

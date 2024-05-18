@@ -46,7 +46,8 @@ function Tax() {
         return;
       }
       const response = await axios.post(
-        "http://127.0.0.1:3000/api/user/create/tax",
+        "https://kathmandu-citycouncil.vercel.app//api/user/create/tax",
+        // "http://127.0.0.1:3000/api/user/create/tax",
         tax
       );
 

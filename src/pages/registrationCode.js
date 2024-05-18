@@ -21,7 +21,8 @@ function RegistrationCode() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "http://127.0.0.1:3000/api/user/email/verification",
+        "https://kathmandu-citycouncil.vercel.app//api/user/email/verification",
+        // "http://127.0.0.1:3000/api/user/email/verification",
         code
       );
       if (response.data) {
