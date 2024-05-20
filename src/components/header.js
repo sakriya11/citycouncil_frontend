@@ -60,20 +60,17 @@ function Headertest() {
             <div class="paste-button">
               <button class="button">Menu &nbsp; ▼</button>
               <div class="dropdown-content">
-                <a id="first" href="#" onClick={navigateToCalender}>
+                <a id="first" href="#calender" onClick={navigateToCalender}>
                   Calender
                 </a>
-                <a id="second" href="#" onClick={navigateToAboutus}>
+                <a id="second" href="#aboutus" onClick={navigateToAboutus}>
                   About us
                 </a>
-                <a id="second" href="#" onClick={navigateToTax}>
+                <a id="second" href="#tax" onClick={navigateToTax}>
                   Tax
                 </a>
-                <a id="second" href="#">
-                  News
-                </a>
 
-                <a id="third" href="#" onClick={handelLogout}>
+                <a id="third" href="#logout" onClick={handelLogout}>
                   Logout
                 </a>
               </div>
@@ -92,17 +89,17 @@ function Headertest() {
             <div class="paste-button">
               <button class="button">Menu &nbsp; ▼</button>
               <div class="dropdown-content">
-                <a id="first" href="#" onClick={navigateToCalender}>
+                <a id="first" href="#calender" onClick={navigateToCalender}>
                   Calender
                 </a>
-                <a id="second" href="#" onClick={navigateToAboutus}>
+                <a id="second" href="#aboutus" onClick={navigateToAboutus}>
                   About us
                 </a>
-                <a id="second" href="#" onClick={navigateToTax}>
+                <a id="second" href="#tax" onClick={navigateToTax}>
                   Tax
                 </a>
 
-                <a id="third" href="#" onClick={handelRegister}>
+                <a id="third" href="#register" onClick={handelRegister}>
                   Register
                 </a>
               </div>
